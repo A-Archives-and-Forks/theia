@@ -246,7 +246,7 @@ export class ChatViewWidget extends BaseWidget implements ExtractableWidget, Sta
         if (chatRequest.text.length === 0) { return; }
 
         if (this.chatSession.model.isEmpty()) {
-            this.navigationService.notifyQueryFromWelcomeScreen(this.chatSession.id);
+            this.navigationService.notifyInitialQuery(this.chatSession.id);
         }
 
         // Include all variables (context + pending image attachments) in the request
