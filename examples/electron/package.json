@@ -45,6 +45,7 @@
     "@theia/ai-mcp-server": "1.71.0",
     "@theia/ai-mcp-ui": "1.71.0",
     "@theia/ai-ollama": "1.71.0",
+    "@theia/ai-registry": "1.71.0",
     "@theia/ai-openai": "1.71.0",
     "@theia/ai-scanoss": "1.71.0",
     "@theia/ai-terminal": "1.71.0",
